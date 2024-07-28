@@ -1,0 +1,86 @@
+/* product info  */
+body{
+    background-color: rgb(255, 234, 207) ;
+}
+.image-container{
+    background-color: lightcoral;
+    height: 400px;
+    border-radius: 30px;
+    position: relative;
+}
+.image
+{
+    img{
+        border-radius: 30px;
+        border: solid white;
+        width: 300px;
+        margin: 20px;
+    }
+}
+.text{
+    font-size: 30px;
+    position: absolute;
+    left: 350px;
+    top: 30px;
+}
+.price{
+    position: absolute;
+    left: 350px;
+    bottom: 80px;
+    font-size: 50px;
+    color: aliceblue;
+}
+/* checkout  */
+.checkout-form{
+    background-color: rgb(255, 186, 161);
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 30px;
+    position: relative;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 20px;
+    height: 20px;
+    width: 30%;
+    transition: 0.3s;
+    border: none;
+}
+input:focus{
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 20px;
+    height: 20px;
+    border: none;
+    width: 60%;
+}
+.popt{
+    width: initial;
+}
+.popt:focus{
+    width: initial;
+}
+.address{
+    height: 70px;
+}
+.address:focus{
+    height: 70px;
+    width: 60%;
+}
+.checkout{
+    background-color: rgb(172, 255, 47);
+    width: 80px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    left: 80%;
+    bottom: 20px;
+}
+.checkout:focus{
+    background-color: rgb(146, 217, 39);
+    width: 80px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    left: 80%;
+    bottom: 20px;
+}

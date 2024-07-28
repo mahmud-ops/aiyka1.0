@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(255, 234, 207);
+}
+/* navigation start */
+.navbar{
+    background-image: linear-gradient(lightcoral,lightcoral);
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    float: right;
+    padding-bottom: 55px;
+    border-radius: 0px 0px 0px 100px;
+    border-left: solid;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.571);
+    z-index: 20;
+    position: sticky;
+    a{
+        padding: 20px;
+        text-decoration: none;
+        color: black;
+        margin:auto;
+    }
+    a:hover{
+        padding: 20px;
+        text-decoration: none;
+        color: rgb(255, 252, 252);
+    }
+}
+/* navigation end */
+
+/* heading start */
+.head{
+    width: 86%;
+    background-color: rgb(250, 180, 154);
+    min-height: 360px;
+    border-radius: 30px 0px 0px 30px;
+    position: sticky;
+    z-index: 10;
+}
+.p1{
+    font-size: 200px;
+    text-align: center;
+    font-family: 'gabriola','cursive';
+    text-shadow: 0px 4px 5px coral;
+    transform: translateY(-2px);
+    /* animation  */
+    animation-name: aiyka;
+    animation-duration: 3s;
+    transition-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes aiyka {
+    0%{
+        font-size: 200px;
+        text-align: center;
+        font-family: 'gabriola','cursive';
+        text-shadow: 0px 4px 5px coral;
+        transform: translateY(-2px);
+    }
+    50%{
+        font-size: 200px;
+        text-align: center;
+        font-family: 'gabriola','cursive';
+        text-shadow: 0px 10px 10px coral;
+        transform: translateY(-10px);
+    }
+}
+/* heading end */
+
+/* main start  */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.product{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(250, 217, 145);
+    margin: 20px;
+    border-radius: 10px 10px 30px 30px;
+    box-shadow: 0px 0px 2px black;
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.product:hover{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(250, 217, 145);
+    margin: 20px;
+    border-radius: 10px 10px 30px 30px;
+    box-shadow: 0px 0px 10px black;
+}
+.product img{
+    width: 97%;
+    border-radius: inherit;
+    margin: 2px 4px;
+}
+/* main end  */
+.footer{
+    background-color: rgb(29, 29, 45);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+
